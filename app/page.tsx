@@ -1,65 +1,92 @@
-import Image from "next/image";
+import HeroSection from "@/components/HeroSection";
+import FeatureSection from "@/components/FeatureSection";
+import DownloadSection from "@/components/DownloadSection";
+import { LayoutGrid, Filter, Users, Contact, Search, Languages, BarChart3 } from "lucide-react"; // Added Languages icon
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <main className="min-h-screen bg-white">
+
+      <HeroSection />
+
+      {/* Title Section */}
+      <div className="text-center pt-24 pb-12 lg:pt-32 lg:pb-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl md:text-5xl font-extrabold text-slate-900 mb-6 tracking-tight">
+            All Features in One App
+          </h2>
+          <p className="text-lg md:text-xl text-slate-500 max-w-3xl mx-auto leading-relaxed">
+            Get started with the Artisan App.
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+      </div>
+
+      {/* Step 1: Language Selection (NEW) */}
+      <FeatureSection
+        subtitle=" Select Language"
+        title="Available in Your Local Language"
+        desc="we support 10 languages. Choose from English, Hindi, Gujarati, Tamil, Marathi, and more to navigate the app comfortably in your preferred regional language."
+        image="/language.jpg" // Rename your screenshot to language.jpg
+        icon={Languages}
+      />
+
+      {/* Step 2: Category Selection (Reversed for Zig-Zag layout) */}
+      <FeatureSection
+        subtitle=" Browse Categories"
+        title="Select Your Service Category"
+        desc="Choose from a wide range of industries including Skilled Trades, Education, Healthcare, IT, and more. We have organized everything to help you find exactly what you need."
+        image="/category.jpg"
+        icon={LayoutGrid}
+        reverse={true}
+      />
+
+      {/* Step 3: Subcategory/Profession */}
+      <FeatureSection
+        subtitle=" Specific Professions"
+        title="Pinpoint the Right Expert"
+        desc="Drill down into specific professions. Looking for a Teacher, Professor, or a Tutor? Our detailed subcategories ensure you connect with the exact specialist for the job."
+        image="/subcategory.jpg"
+        icon={Filter}
+      />
+
+      {/* Step 4: Artisan Listings (Reversed) */}
+      <FeatureSection
+        subtitle=" Verified Listings"
+        title="Browse Skilled Professionals"
+        desc="View a list of verified artisans near you. Check their ratings, verification badges, and key expertise at a glance before you decide to connect."
+        image="/listing.jpg"
+        icon={Users}
+        reverse={true}
+      />
+
+      {/* Step 5: Details Page */}
+      <FeatureSection
+        subtitle="Comprehensive Details"
+        title="In-Depth Artisan Profiles"
+        desc="Get full transparency. View availability schedules, read detailed bios, check past portfolios, and contact them directly via phone or location navigation."
+        image="/details.jpg"
+        icon={Contact}
+      />
+
+      {/* Step 6: Worker Registration (Reversed) */}
+      <FeatureSection
+        subtitle="Two Types of Users"
+        title="Join as a Skilled Worker"
+        desc="Our platform caters to both customers and professionals. If you are a skilled worker, simply select this option to register your services, create a profile, and start connecting with clients."
+        image="/popup.jpg"
+        icon={Search}
+        reverse={true}
+      />
+      {/* Step 7: Worker Dashboard (NEW) */}
+      <FeatureSection
+        subtitle="Worker Dashboard"
+        title="Track Your Growth & Reach"
+        desc="For artisans: Access a powerful dashboard to track profile views, monitor your overall ratings, manage your portfolio, and update your business profile instantly."
+        image="/dashboard.jpg" // Rename your screenshot to dashboard.jpg
+        icon={BarChart3}
+      />
+      <DownloadSection />
+
+    </main>
   );
 }
