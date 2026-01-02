@@ -18,7 +18,7 @@ export default function DownloadSection() {
 
                 {/* Heading */}
                 <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6 tracking-tight leading-tight">
-                    Download the <span className="text-primary-600">Artisan App</span> Today
+                    Download the <span className="text-primary-600">Rozgar App</span> Today
                 </h2>
 
                 {/* Description */}

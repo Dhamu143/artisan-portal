@@ -12,7 +12,7 @@ export default function Footer() {
                             <div className="w-8 h-8 bg-white rounded flex items-center justify-center">
                                 <span className="text-primary-600 font-bold">FA</span>
                             </div>
-                            <span className="text-2xl font-bold text-white">Artisan App</span>
+                            <span className="text-2xl font-bold text-white">Rozgar App</span>
                         </div>
                         <p className="mb-8 max-w-sm text-slate-400">
                             A modern way to connect the community with skilled professionals. Reliable, fast, and secure.
@@ -45,7 +45,7 @@ export default function Footer() {
                 </div>
 
                 <div className="border-t border-slate-800 pt-8 text-center text-sm">
-                    © {new Date().getFullYear()} Artisan App | All rights reserved
+                    © {new Date().getFullYear()} Rozgar App | All rights reserved
                 </div>
             </div>
         </footer>

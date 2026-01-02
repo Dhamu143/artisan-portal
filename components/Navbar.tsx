@@ -18,7 +18,7 @@ export default function Navbar() {
                             <Hammer size={24} fill="currentColor" />
                         </div>
                         <span className="text-2xl font-extrabold text-slate-800 tracking-tight">
-                            Artisan<span className="text-primary-600">App</span>
+                            Rozgar<span className="text-primary-600">App</span>
                         </span>
                     </Link>
 

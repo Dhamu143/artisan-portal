@@ -22,7 +22,7 @@ export default function TermsPage() {
               <FileText className="text-primary-600" /> 1. Introduction
             </h2>
             <p className="text-slate-600 mb-8 leading-relaxed">
-              Welcome to <strong>Artisan App</strong>. By accessing or using our mobile application and website, you agree to be bound by these Terms. If you disagree with any part of the terms, you may not access the Service. This platform serves as a marketplace connecting Users (customers) with independent Service Providers (artisans).
+              Welcome to <strong>Rozgar App</strong>. By accessing or using our mobile application and website, you agree to be bound by these Terms. If you disagree with any part of the terms, you may not access the Service. This platform serves as a marketplace connecting Users (customers) with independent Service Providers (artisans).
             </p>
 
             <h2 className="flex items-center gap-2 text-2xl font-bold text-slate-900 mb-4">
@@ -45,7 +45,7 @@ export default function TermsPage() {
               <li>You have the legal right to work and provide services in your jurisdiction.</li>
               <li>You hold all necessary licenses, certifications, and insurance required for your trade.</li>
               <li>You will provide services with a high standard of quality and professionalism.</li>
-              <li>You acknowledge that you are an independent contractor, not an employee of Artisan App.</li>
+              <li>You acknowledge that you are an independent contractor, not an employee of Rozgar App.</li>
             </ul>
 
             <h2 className="text-2xl font-bold text-slate-900 mb-4">4. Payments & Fees</h2>
@@ -55,7 +55,7 @@ export default function TermsPage() {
 
             <h2 className="text-2xl font-bold text-slate-900 mb-4">5. Limitation of Liability</h2>
             <p className="text-slate-600 mb-8">
-              Artisan App acts solely as a connector. We are not liable for any damages, injuries, or losses arising from the services provided by independent artisans. While we vet professionals, the final engagement is between the User and the Provider.
+              Rozgar App acts solely as a connector. We are not liable for any damages, injuries, or losses arising from the services provided by independent artisans. While we vet professionals, the final engagement is between the User and the Provider.
             </p>
 
             <div className="bg-slate-50 p-6 rounded-xl border border-slate-200 mt-8">

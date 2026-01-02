@@ -16,7 +16,7 @@ export default function Home() {
             All Features in One App
           </h2>
           <p className="text-lg md:text-xl text-slate-500 max-w-3xl mx-auto leading-relaxed">
-            Get started with the Artisan App.
+            Get started with the Rozgar App.
           </p>
         </div>
       </div>

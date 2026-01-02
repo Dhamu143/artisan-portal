@@ -19,7 +19,7 @@ export default function PrivacyPage() {
           
           <div className="prose prose-slate max-w-none">
             <p className="text-slate-600 mb-8 leading-relaxed text-lg">
-              At <strong>Artisan App</strong>, we take your privacy seriously. This policy describes how we collect, use, and protect your personal information when you use our mobile application and website to connect with service professionals.
+              At <strong>Rozgar App</strong>, we take your privacy seriously. This policy describes how we collect, use, and protect your personal information when you use our mobile application and website to connect with service professionals.
             </p>
 
             <h2 className="flex items-center gap-2 text-2xl font-bold text-slate-900 mb-4">

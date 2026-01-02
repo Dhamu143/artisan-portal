@@ -24,7 +24,7 @@ export default function HeroSection() {
                     <div className="order-1 lg:order-1 flex-1 max-w-xl text-center lg:text-left">
                         <h1 className="text-3xl md:text-4xl lg:text-4xl font-bold text-slate-900 leading-tight mb-4">
                             Your Reliable <br />
-                            <span className="text-primary-600">Field Artisan App</span>
+                            <span className="text-primary-600">Field Rozgar App</span>
                         </h1>
 
                         <p className="text-base md:text-lg text-slate-600 mb-8 leading-relaxed">
@@ -59,7 +59,7 @@ export default function HeroSection() {
                         <div className="relative w-[220px] h-[440px] sm:w-[260px] sm:h-[500px] md:w-[300px] md:h-[560px]">
                             <Image
                                 src="/p.png"
-                                alt="Field Artisan App Screenshot"
+                                alt="Field Rozgar App Screenshot"
                                 fill
                                 priority
                                 className="object-contain"

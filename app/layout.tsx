@@ -7,8 +7,11 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Field Artisan App - Find & Book Local Pros",
+  title: "Field Rozgar App - Find & Book Local Pros",
   description: "The easiest way to find trusted plumbers, electricians, and technicians in your area.",
+  icons: {
+    icon: "/logo.png",
+  },
 };
 
 export default function RootLayout({
