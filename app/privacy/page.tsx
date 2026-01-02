@@ -5,7 +5,6 @@ export default function PrivacyPage() {
     <main className="min-h-screen bg-slate-50">
 
       
-      {/* Header */}
       <div className="bg-slate-900 text-white py-16">
         <div className="container mx-auto px-6 max-w-4xl text-center">
           <h1 className="text-3xl md:text-5xl font-bold mb-4">Privacy Policy</h1>
@@ -13,7 +12,6 @@ export default function PrivacyPage() {
         </div>
       </div>
 
-      {/* Content */}
       <div className="container mx-auto px-6 max-w-4xl -mt-8 pb-20">
         <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12">
           

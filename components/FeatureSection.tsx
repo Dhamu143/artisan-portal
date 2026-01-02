@@ -28,7 +28,6 @@ export default function FeatureSection({
                     className={`flex flex-col gap-16 lg:gap-32 items-center ${reverse ? "lg:flex-row-reverse" : "lg:flex-row"
                         }`}
                 >
-                    {/* Text Side */}
                     <div className="flex-1 text-center lg:text-left w-full">
                         <div className="inline-flex items-center gap-2 bg-blue-50 text-blue-700 px-5 py-2.5 rounded-2xl font-bold text-sm mb-8">
                             <div className="p-1 bg-blue-200 rounded-full">
@@ -46,7 +45,6 @@ export default function FeatureSection({
                         </p>
                     </div>
 
-                    {/* Image Side */}
                     <div className="flex-1 relative flex justify-center w-full">
                         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] bg-slate-50 rounded-full blur-3xl -z-10" />
 

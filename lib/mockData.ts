@@ -30,7 +30,7 @@ export const ARTISANS = [
     price: "₹500",
     image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=400&h=400&fit=crop",
     verified: true,
-    company: true, // This is a company/agency
+    company: true, 
   },
   {
     id: "3",

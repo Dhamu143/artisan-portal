@@ -14,13 +14,11 @@ export default function HeroSection() {
     return (
         <section className="relative overflow-hidden bg-gradient-to-b from-slate-50 to-white pt-16 pb-24">
 
-            {/* Soft Background Blur */}
             <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[700px] h-[700px] bg-blue-100/40 rounded-full blur-3xl -z-10" />
 
             <div className="container mx-auto px-6 md:px-12 lg:px-20">
                 <div className="flex flex-col lg:flex-row items-center gap-14">
 
-                    {/* LEFT CONTENT — FIRST ON MOBILE */}
                     <div className="order-1 lg:order-1 flex-1 max-w-xl text-center lg:text-left">
                         <h1 className="text-3xl md:text-4xl lg:text-4xl font-bold text-slate-900 leading-tight mb-4">
                             Your Reliable <br />
@@ -54,7 +52,6 @@ export default function HeroSection() {
 
                     </div>
 
-                    {/* RIGHT IMAGE — SECOND ON MOBILE */}
                     <div className="order-2 lg:order-2 flex-1 flex justify-center">
                         <div className="relative w-[220px] h-[440px] sm:w-[260px] sm:h-[500px] md:w-[300px] md:h-[560px]">
                             <Image

@@ -1,15 +1,14 @@
 import HeroSection from "@/components/HeroSection";
 import FeatureSection from "@/components/FeatureSection";
 import DownloadSection from "@/components/DownloadSection";
-import { LayoutGrid, Filter, Users, Contact, Search, Languages, BarChart3 } from "lucide-react"; // Added Languages icon
+import { LayoutGrid, Filter, Users, Contact, Search, Languages, BarChart3 } from "lucide-react"; 
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-white">
 
-      <HeroSection />
+      <HeroSection /> 
 
-      {/* Title Section */}
       <div className="text-center pt-24 pb-12 lg:pt-32 lg:pb-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-5xl font-extrabold text-slate-900 mb-6 tracking-tight">
@@ -21,16 +20,14 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Step 1: Language Selection (NEW) */}
       <FeatureSection
         subtitle=" Select Language"
         title="Available in Your Local Language"
         desc="we support 10 languages. Choose from English, Hindi, Gujarati, Tamil, Marathi, and more to navigate the app comfortably in your preferred regional language."
-        image="/language.jpg" // Rename your screenshot to language.jpg
+        image="/language.jpg"
         icon={Languages}
       />
 
-      {/* Step 2: Category Selection (Reversed for Zig-Zag layout) */}
       <FeatureSection
         subtitle=" Browse Categories"
         title="Select Your Service Category"
@@ -40,7 +37,6 @@ export default function Home() {
         reverse={true}
       />
 
-      {/* Step 3: Subcategory/Profession */}
       <FeatureSection
         subtitle=" Specific Professions"
         title="Pinpoint the Right Expert"
@@ -49,7 +45,6 @@ export default function Home() {
         icon={Filter}
       />
 
-      {/* Step 4: Artisan Listings (Reversed) */}
       <FeatureSection
         subtitle=" Verified Listings"
         title="Browse Skilled Professionals"
@@ -58,8 +53,6 @@ export default function Home() {
         icon={Users}
         reverse={true}
       />
-
-      {/* Step 5: Details Page */}
       <FeatureSection
         subtitle="Comprehensive Details"
         title="In-Depth Artisan Profiles"
@@ -68,7 +61,6 @@ export default function Home() {
         icon={Contact}
       />
 
-      {/* Step 6: Worker Registration (Reversed) */}
       <FeatureSection
         subtitle="Two Types of Users"
         title="Join as a Skilled Worker"
@@ -77,12 +69,11 @@ export default function Home() {
         icon={Search}
         reverse={true}
       />
-      {/* Step 7: Worker Dashboard (NEW) */}
       <FeatureSection
         subtitle="Worker Dashboard"
         title="Track Your Growth & Reach"
         desc="For artisans: Access a powerful dashboard to track profile views, monitor your overall ratings, manage your portfolio, and update your business profile instantly."
-        image="/dashboard.jpg" // Rename your screenshot to dashboard.jpg
+        image="/dashboard.jpg"
         icon={BarChart3}
       />
       <DownloadSection />

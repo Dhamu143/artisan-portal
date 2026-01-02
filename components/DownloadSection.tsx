@@ -1,40 +1,32 @@
-import Link from "next/link";
 
 export default function DownloadSection() {
     return (
         <section className="relative py-24 lg:py-32 bg-slate-50 overflow-hidden">
 
-            {/* Background Decoration (Subtle Animated Blobs) */}
             <div className="absolute inset-0 overflow-hidden">
                 <div className="absolute -top-[30%] -left-[10%] w-[70%] h-[70%] rounded-full bg-blue-100/50 blur-3xl opacity-60"></div>
                 <div className="absolute top-[20%] -right-[10%] w-[60%] h-[60%] rounded-full bg-purple-100/50 blur-3xl opacity-60"></div>
             </div>
 
             <div className="container mx-auto px-4 relative z-10 text-center">
-                {/* Pill Label */}
                 <div className="inline-flex items-center gap-2 bg-white border border-slate-200 text-primary-600 px-4 py-1.5 rounded-full text-sm font-bold shadow-sm mb-8">
                     Available Now
                 </div>
 
-                {/* Heading */}
                 <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6 tracking-tight leading-tight">
                     Download the <span className="text-primary-600">Rozgar App</span> Today
                 </h2>
 
-                {/* Description */}
                 <p className="text-lg md:text-xl text-slate-500 mb-10 max-w-2xl mx-auto leading-relaxed">
                     Experience the easiest way to find skilled professionals in your area.
                     Join thousands of users connecting daily.
                 </p>
 
-                {/* Button Container */}
                 <div className="flex flex-col sm:flex-row justify-center items-center gap-6">
-                    {/* Added a hover lift effect to the button */}
                     <div className="transform transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg rounded-lg">
                         <GooglePlayBadge />
                     </div>
 
-                    {/* Note: If you have an App Store SVG later, place it here in a similar div */}
                 </div>
 
             </div>

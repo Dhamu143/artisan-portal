@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 interface ArtisanProps {
-  data: any; // Using any for brevity, use proper interface in prod
+  data: any;
 }
 
 export default function ArtisanCard({ data }: ArtisanProps) {
